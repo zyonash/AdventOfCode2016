@@ -71,7 +71,7 @@ public class Day1 {
         }
 
         if(x_position >= 0){
-            blocks = (y_position >= 0) ? (x_position+y_position):(x_position-y_position);
+            blocks = (y_position >= 0) ? (x_position + y_position):(x_position - y_position);
         } else {
             blocks = (y_position >= 0) ? (y_position - x_position) : (y_position + x_position);
         }
